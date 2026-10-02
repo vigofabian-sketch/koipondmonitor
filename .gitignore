@@ -1,0 +1,4 @@
+*.db
+Data/features.csv
+Data/predictions.csv
+__pycache__/

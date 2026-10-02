@@ -1,4 +1,5 @@
 *.db
 Data/features.csv
 Data/predictions.csv
+Data/predictions_public.csv
 __pycache__/

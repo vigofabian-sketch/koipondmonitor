@@ -4,7 +4,7 @@ Run the same pipeline on REAL pond sensor data (KU-MWQ dataset).
 Dataset: Nahid et al., "KU-MWQ: A Dataset for Monitoring Water Quality
 Using Digital Sensors", Mendeley Data, DOI 10.17632/34rczh25kc.4
 Real Arduino sensors in a fish pond, Khulna University, Jan 2020.
-File used: Data/public/Sensor data for 30 cm.xlsx
+File used: Data/Public/Sensor data for 30 cm.xlsx
 
 The dataset has NO anomaly labels, so there is no precision/recall here.
 We check: what gets flagged, do methods agree, do flags look physical.

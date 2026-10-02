@@ -22,7 +22,7 @@ from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
 
 ROOT = Path(__file__).parent
-SRC = ROOT / "Data" / "public" / "Sensor data for 30 cm.xlsx"
+SRC = ROOT / "Data" / "Public" / "Sensor data for 30 cm.xlsx"
 DB = ROOT / "Data" / "koi_public.db"
 
 # --- 1) load + clean ---

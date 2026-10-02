@@ -3,7 +3,7 @@ Anomaly detection on SQL-engineered features: Isolation Forest vs a
 simple threshold baseline.
 
 Run from repo root (after build_features.py):  python anomaly_detection.py
-Outputs: images/anomaly_plot.png, Data/predictions.csv, metrics printed.
+Outputs: Images/anomaly_plot.png, Data/predictions.csv, metrics printed.
 
 NOTE: data is SYNTHETIC. event_label is used ONLY to score results,
 never as a model input. Results show the pipeline works, not that the
@@ -84,6 +84,6 @@ for ax, col, lab in zip(axes, ["temp_c", "ph", "turbidity"],
 axes[0].legend(loc="upper right")
 axes[0].set_title("Synthetic pond data: flags (red) vs injected events (orange)")
 plt.tight_layout()
-(ROOT / "images").mkdir(exist_ok=True)
-plt.savefig(ROOT / "images" / "anomaly_plot.png", dpi=130)
-print("saved images/anomaly_plot.png")
+(ROOT / "Images").mkdir(exist_ok=True)
+plt.savefig(ROOT / "Images" / "anomaly_plot.png", dpi=130)
+print("saved Images/anomaly_plot.png")

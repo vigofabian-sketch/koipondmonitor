@@ -67,7 +67,7 @@ The dataset has no anomaly labels, so no precision or recall is reported.
 The flags show where the data changes fastest, not confirmed contamination. Limitations: one week, one site, no ground truth.
 
 **Dataset:** Nahid et al., "KU-MWQ: A Dataset for Monitoring Water Quality Using Digital Sensors", Mendeley Data, DOI 10.17632/34rczh25kc.4
-**Licence:** (copy from the Mendeley page)
+**Licence:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The original file is included unmodified in `Data/Public/`. This repo's scripts resample it to 10-minute medians and add derived features; no changes are made to the file itself.
 
 ## Limitations
 - **Synthetic data.** The model finds anomalies I injected. This shows the pipeline works, not that it works on a real pond.

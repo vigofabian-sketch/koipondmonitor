@@ -87,6 +87,9 @@ python validate_public.py
 python -m streamlit run dashboard.py
 ```
 `validate_public.py` needs `Data/Public/Sensor data for 30 cm.xlsx` (download from the Mendeley link above).
+## Next steps
+- Build the real hardware (pH probe calibration, SD logging, waterproof enclosure) and collect real pond data
+- Add alert rules and a notification path
 
 ## Next steps
 - Build the real hardware (pH probe calibration, SD logging, waterproof enclosure) and collect real pond data
